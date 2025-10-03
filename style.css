@@ -1,0 +1,45 @@
+body{
+    font-family:sans-serif;
+    padding: 20px;
+}
+h1{
+    font-family:'Palette Mosaic',sans-serif; /*attempting to add google font to site*/
+    font-size:50px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+h2{
+    font-size:40px;
+}
+h1,h2,p, a{ /*a element isnt moving to center...*/
+    text-align:center;
+}
+h2,p,a{
+    font-family:'Gamja Flower',sans-serif;
+}
+p,a{
+    font-size:30px;
+}
+a{
+    color:green; /*change with color of background edit */
+    display:block;
+    text-align:center;
+}
+a:hover{
+    color:goldenrod;
+}
+a:active{
+    color:yellowgreen;
+}
+a:visited{
+    color:purple;
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*FOOTER*/
+footer{
+    font-size:16px;
+}
