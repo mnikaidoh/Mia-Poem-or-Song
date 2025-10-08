@@ -2,9 +2,7 @@ body{
     font-family:sans-serif;
     padding: 0;
     margin: 0;
-    
-    /* background-color: #b5cf2d; */
-    cursor: url('flower_cursor.png'), auto; /*can edit cursor*/
+    cursor: url('flower_cursor.png'), auto;
     background-image:url('grass4.png');
 
 }
@@ -18,12 +16,12 @@ header{
     padding-left: 1rem;
 }
 h1{
-    font-family:'Palette Mosaic',sans-serif; /*attempting to add google font to site*/
+    font-family:'Palette Mosaic',sans-serif;
     font-size:100px;
     margin-top:1rem;
     margin-bottom:2rem;
     border:dotted;
-    padding-top: 1rem;/* Inside padding  WHAT IS REM?? EDIT SIDES TO BE SMALLER*/
+    padding-top: 1rem;
     padding-right: .2rem;
     padding-bottom: 1rem;
     padding-left: .25rem;
@@ -38,12 +36,11 @@ h1{
 
 h2{
     font-size:40px;
-    /* color:rgb(122, 68, 54); */
     color:#845320;
     margin-top:0;
     
 }
-h1,h2,p, a{ /*a element isnt moving to center...*/
+h1,h2,p, a{
     text-align:center;
 }
 h2,p,a{
@@ -53,12 +50,13 @@ p,a{
     font-size:30px;
 }
 a{
-    color:green; /*change with color of background edit */
+    color:green;
     display:block;
     text-align:center;
     margin-top:1rem;
-    /*CHANGE so that hover is ONLY OVER the link not around it*/
+    
 }
+
 a:hover{
     color:goldenrod;
     cursor: url('flower_cursor.png'), auto; /* while hovering, maintain flower*/
@@ -88,21 +86,20 @@ a:visited{
 }
 
 section {
-    padding-top: 1rem;/* Inside padding */
+    padding-top: 1rem;
     padding-right: .5rem;
     padding-bottom: 1rem;
     padding-left: .25rem;
     max-width:500px;
     margin: 1rem auto; /* To center the section horizontally */
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4); /* Light shadow */
-    /* background-color: #b5cf2d; */
     background-image:url('paperboard-texture.jpg');
 }
 .bee{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    max-width: 200px; /* But no wider than 900px */
+    width: 200px;
 }
 
 /*FOOTER*/
