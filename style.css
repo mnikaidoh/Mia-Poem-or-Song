@@ -8,11 +8,7 @@ body{
     background-image:url('grass4.png');
 
 }
-.bugs{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
+
 header{
     max-width:900px;
     margin: 0 auto; /* To center the section horizontally */
@@ -33,9 +29,11 @@ h1{
     padding-left: .25rem;
     background-image:url('grass5.png');
 }
-
-.row {
-  display: flex;
+.bugs{
+    margin-left:auto;
+    margin-right:auto;
+    width: fit-content;
+    align-items: center;
 }
 
 h2{
@@ -100,13 +98,13 @@ section {
     /* background-color: #b5cf2d; */
     background-image:url('paperboard-texture.jpg');
 }
-img{
+.bee{
     display:block;
     margin-left:auto;
     margin-right:auto;
     max-width: 200px; /* But no wider than 900px */
-    border-radius: 50px; /* Rounded corners */
 }
+
 /*FOOTER*/
 hr{
     height:2px;
