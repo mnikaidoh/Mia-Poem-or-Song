@@ -1,6 +1,7 @@
 body{
     font-family:sans-serif;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
     
     /* background-color: #b5cf2d; */
     cursor: url('flower_cursor.png'), auto; /*can edit cursor*/
@@ -18,7 +19,7 @@ header{
 h1{
     font-family:'Palette Mosaic',sans-serif; /*attempting to add google font to site*/
     font-size:100px;
-    margin-top:0;
+    margin-top:1rem;
     margin-bottom:2rem;
     border:dotted;
     padding-top: 1rem;/* Inside padding  WHAT IS REM?? EDIT SIDES TO BE SMALLER*/
@@ -27,6 +28,11 @@ h1{
     padding-left: .25rem;
     background-image:url('grass5.png');
 }
+
+.row {
+  display: flex;
+}
+
 h2{
     font-size:40px;
     /* color:rgb(122, 68, 54); */
@@ -50,10 +56,20 @@ a{
     margin-top:1rem;
     /*CHANGE so that hover is ONLY OVER the link not around it*/
 }
+a:hover{
+    color:goldenrod;
+    cursor: url('flower_cursor.png'), auto; /* while hovering, maintain flower*/
+}
+a:active{
+    color:yellowgreen;
+}
+a:visited{
+    color:green;
+}
 .description{
     max-width:900px;
     margin:0 auto;
-    /* background-color: #b5cf2d; */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4); /* Light shadow */
     background-image:url('paperboard-texture.jpg');
     padding-top: 1rem;
     padding-right: .5rem;
@@ -67,16 +83,7 @@ a{
     padding:0;
     line-height:.8;
 }
-a:hover{
-    color:goldenrod;
-    cursor: url('flower_cursor.png'), auto; /* while hovering, maintain flower*/
-}
-a:active{
-    color:yellowgreen;
-}
-a:visited{
-    color:purple;
-}
+
 section {
     padding-top: 1rem;/* Inside padding */
     padding-right: .5rem;
@@ -84,7 +91,7 @@ section {
     padding-left: .25rem;
     max-width:500px;
     margin: 1rem auto; /* To center the section horizontally */
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4); /* Light shadow */
     /* background-color: #b5cf2d; */
     background-image:url('paperboard-texture.jpg');
 }
