@@ -8,6 +8,11 @@ body{
     background-image:url('grass4.png');
 
 }
+.bugs{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 header{
     max-width:900px;
     margin: 0 auto; /* To center the section horizontally */
